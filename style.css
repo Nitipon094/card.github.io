@@ -8,7 +8,7 @@
 
 body {
     font-family: "Roboto", serif;
-    background-color: #FFC6C6;
+    background-color: #f7c1fe;
 }
 
 .card-wrapper {
@@ -19,7 +19,7 @@ body {
 .card {
     width: 180px;
     height: 280px;
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid;
     transform-style: preserve-3d;
     will-change: transform;
@@ -28,7 +28,7 @@ body {
 }
 
 .envelope:hover .card {
-    transform: rotateY(-15deg);
+    transform: rotateY(-8deg);
     transition-delay: 1750ms;
 }
 
@@ -243,14 +243,14 @@ body {
 
 /* Heart Seal */
 
-.heart-seal {
+.kuromi-ringring {
     position: absolute;
     top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 36px;
-    height: 32px; 
-    background-image: url("heart-seal.png");
+    width: 112px;
+    height: 90px; 
+    background-image: url("kuromi-ringring.png");
     background-size: cover; 
     background-repeat: no-repeat;
     z-index: 2;
